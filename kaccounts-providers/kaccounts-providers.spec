@@ -1,12 +1,12 @@
 Name:    kaccounts-providers
-Version: 25.07.90
+Version: 25.08.0
 Release: 10%{?dist}
 Summary: Additional service providers for KAccounts framework
 # Automatically converted from old format: GPLv2 - review is highly recommended.
 License: GPL-2.0-only
 URL:     https://invent.kde.org/network/%{name}
 
-Source0: https://download.kde.org/unstable/release-service/%{version}/src/%{name}-%{version}.tar.xz
+Source0: https://download.kde.org/stable/release-service/%{version}/src/%{name}-%{version}.tar.xz
 Patch10: google-workaround.patch
 
 # Upstream patches
@@ -70,6 +70,9 @@ Obsoletes: kaccounts-providers < 15.12.0
 
 
 %changelog
+* Sat Aug 25 2025 John Vincent Corcega <linux@tenseventyseven.xyz> - 25.08.0-10
+- 25.08.0
+
 * Fri Jul 25 2025 Steve Cossette <farchord@gmail.com> - 25.07.90-1
 - 25.07.90
 
